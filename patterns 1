@@ -1,3 +1,5 @@
+ch='y'
+while (ch=='y') or (ch=='Y'):
     b=int(input("which shape pattern do you want\n1.rectangle's pattern\n2.triangle's pattern\n3.pyramid's pattern\nEnter serial no. of option which you want:"))
     if b==1:
         c=int(input("which pattern do you want\n1.rectangle star pattern\n2.square pattern\nEnter serial no. of option which you want:"))
@@ -45,3 +47,5 @@
                 print()
         else:
             print("Invalid option")
+    ch=input("Do you want to see more patterns:")
+print("Goodbye")
